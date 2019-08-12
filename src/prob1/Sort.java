@@ -14,13 +14,30 @@ public class Sort {
 			System.out.print( array[ i ] + " " );
 		}
 		
+		for(int i =0; i<count; ++i) {
+			
+			for(int j=0; j<count-i-1; ++j) {
+							
+				if(array[j] < array[j+1]) {
+					temp = array[j];
+					array[j] = array[j+1];
+					array[j+1] = temp;
+					
+					System.out.println("keeping");
+					for (int k = 0; k < count; k++) {
+						System.out.print( array[ k ] + " " );
+					
+					}
+				}
+				
+				
+				
+			}
+			
+		}
 		//
 		// 정렬 알고리즘이 적용된 코드를 여기에 작성합니다.
 		//
-
-		
-		
-		
 		
 		System.out.println( "\nAfter Sort." );
 		

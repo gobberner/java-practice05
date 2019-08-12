@@ -1,6 +1,6 @@
 package prob5;
 
-public class MyStack<T> {
+public class MyStack {
 	private int top;
 	private String[] buffer;
 

@@ -1,6 +1,6 @@
 package prob4;
 
-public class SoundTest {
+public abstract class SoundTest {
 
 	public static void main(String[] args) {
 		printSound( new Cat() );
